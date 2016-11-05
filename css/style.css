@@ -45,9 +45,9 @@ MAYBE IF I DETERMINE THE CLASS OF THE FIRST COLUMN AS THE STRATING POSITION*/
 
 }
 
-/*.column{
-background-color: teal:
-width: 100px;
-height: 200px;
+.column{
+background-color: teal;
+width: 300px;
+height: 250px;
 display: inline-block;
-}*/
+}
