@@ -1,33 +1,53 @@
-#playerOne {
+body{
+
+  background-color: #fff;
+}
+
+.playerOne {
+margin-top: 50px;
 border: 2px solid blue;
 border-radius: 100%;
 height: 100px;
 width: 100px;
+background-color: white;
 /*//where is the starting position?*/
-position:
 display: block;
 }
 
 /*HOW CAN I DETERMINE A STARTING POSITION??
 MAYBE IF I DETERMINE THE CLASS OF THE FIRST COLUMN AS THE STRATING POSITION*/
 
-#playerTwo {
+.playerTwo {
   border: 2px solid red;
   border-radius: 100%;
   height: 100px;
   width: 100px;
   /*//where is the starting position?*/
-  position:
   display: block;
+  background-color: white;
 }
 
-#board {
-  height: 200px;
+#track{
+  height: 250px;
   width: 100%;
+  background-color: #ccc;
+}
+
+#start{
+
+
 }
 
 /*this is a class that can be inherited for the first player that gets to the last column*/
+/*MAYBE I HAVE TO ADD THIS USING JQUERY HMMMMMM.....*/
 .finishLine {
   //here we will specify were is the column for finish line
 
 }
+
+/*.column{
+background-color: teal:
+width: 100px;
+height: 200px;
+display: inline-block;
+}*/
