@@ -9,17 +9,23 @@
 // I NEED A FUNCTION TO START THE GAME??MAYBE IT IS ALREADY IN THE CLASS OF EACH PLAYER WITH THE ORIGINAL POSTION THEY ARE IN
 
 //this is the function that will let playerOne or playerTwo move
-// function move () {
-// //keyA press move playerOne)
-// if ( ) {
-// $('.playerOne').next().addClass("column");
 
-//keyB was pressDown move playerTwo
+
+// Idea 2  move objects by increamenting the location of the object by moving the pixels horizontal.
+
+
+function move () {
+
+// This does not work it just inherits the properties of the class but nit move to tat column
+    // $('.playerOne').next().addClass("column");
+
+    $(".playerOne").appendTo(".nextColumn");
 // } else {
 //
 //
 // }
-// }
+
+}
 
 
 window.addEventListener("keydown", function(event) {
@@ -27,13 +33,11 @@ window.addEventListener("keydown", function(event) {
   switch(event.code) {
     case "KeyA":
       // playerTwo's key to move from the starting postion column to the next one
-      // move();
-      alert("KeyA was press!");
+      move();
       break;
     case "KeyL":
       // playerTwo's key to move from the starting postion column to the next one
-      // move();
-      alert("Keyl was press!");
+      move();
       break;
 
   }

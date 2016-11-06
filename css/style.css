@@ -28,9 +28,10 @@ MAYBE IF I DETERMINE THE CLASS OF THE FIRST COLUMN AS THE STRATING POSITION*/
 }
 
 #track{
-  height: 250px;
+  height: 500px;
   width: 100%;
   background-color: #ccc;
+  border: 2px solid black;
 }
 
 #start{
