@@ -29,6 +29,10 @@ border: 5px solid blue;
   padding-top: 500px;
 }
 
+h2, h3 {
+  font-family: 'VT323', monospace;
+}
+
 
 
 /*idea 1*****************/

@@ -31,10 +31,10 @@ $(function (){
 
      switch(event.code) {
        case "KeyA":
-           $("#playerOne").css("left", position.left + 100 + 'px');
+           $("#playerOne").css("left", position.left + 30 + 'px');
            break;
        case "KeyL":
-           $("#playerTwo").css("left", positionTwo.left + 100 + 'px');
+           $("#playerTwo").css("left", positionTwo.left + 30 + 'px');
            break;
 
      }
