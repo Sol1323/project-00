@@ -14,24 +14,24 @@
 // Idea 2  move objects by increamenting the location of the object by moving the pixels horizontal.
 
 $(function (){
-   var mario = '<div id="playerOne"> <img src="img/mario.png"</div>'
+   var mario = '<div id="playerOne"> <img src="img/mario.png"</div>';
    $('#track').append(mario);
 
-   window.addEventListener("keydown", function(event) {
+   var toad = '<div id="playerTwo"> <img src="img/toad.png"</div>';
+    $('#track').append(toad);
 
-     switch(event.code) {
-       case "KeyA":
-         // playerTwo's key to move from the starting postion column to the next one
-         move();
-         break;
-       case "KeyL":
-         // playerTwo's key to move from the starting postion column to the next one
-         move();
-         break;
-
-     }
-
-   });
+  //  window.addEventListener("keydown", function(event) {
+   //
+  //    switch(event.code) {
+  //      case "KeyA":
+   //
+   //
+  //        break;
+   //
+   //
+  //    }
+   //
+  //  });
 
 
 });

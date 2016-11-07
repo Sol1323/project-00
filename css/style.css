@@ -1,9 +1,14 @@
 #playerOne {
-position: absolute;
+
+}
+
+#playerTwo {
+
+
 }
 
 #track{
-  position: relative;
+  /*position: relative;*/
   height: 500px;
   width: 100%;
   border: 2px solid red;
