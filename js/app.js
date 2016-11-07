@@ -40,9 +40,9 @@ $(function (){
      }
 
 function determineWinner () {
- if ($('#playerOne').css('#finishLine')===true){
+ if ($('#playerOne').css('#finishLine')){
 alert ("Mario is the winner!");
- }else if ($('#playerTwo').css('#finishLine')===true){
+ }else if ($('#playerTwo').css('#finishLine')){
 alert ("Toad is the winner!");
 
  }

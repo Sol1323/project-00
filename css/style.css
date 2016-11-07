@@ -24,6 +24,11 @@ border: 5px solid blue;
   border: 2px solid red;
 }
 
+#rules {
+  position: relative;
+  padding-top: 500px;
+}
+
 
 
 /*idea 1*****************/
