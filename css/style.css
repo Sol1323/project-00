@@ -8,6 +8,15 @@ position: relative;
 
 }
 
+#finishLine {
+height: 500px;
+width:50px;
+position: relative;
+float: right;
+border: 5px solid blue;
+}
+
+
 #track{
   position: absolute;
   height: 500px;
