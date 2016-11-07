@@ -20,18 +20,26 @@ $(function (){
    var toad = '<div id="playerTwo"> <img src="img/toad.png"</div>';
     $('#track').append(toad);
 
-  //  window.addEventListener("keydown", function(event) {
-   //
-  //    switch(event.code) {
-  //      case "KeyA":
-   //
-   //
-  //        break;
-   //
-   //
-  //    }
-   //
-  //  });
+
+
+   window.addEventListener("keydown", function(event) {
+
+
+    var position = $("#playerOne").position();
+    var positionTwo = $("#playerTwo").position();
+
+
+     switch(event.code) {
+       case "KeyA":
+           $("#playerOne").css("left", position.left + 20 + 'px');
+           break;
+       case "KeyL":
+           $("#playerTwo").css("left", positionTwo.left + 20 + 'px');
+           break;
+
+     }
+
+   });
 
 
 });
